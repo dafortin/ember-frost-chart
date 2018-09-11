@@ -1,12 +1,9 @@
-/**
- * Component definition for the frost-chart-axis-tick component
- */
-
 import Ember from 'ember'
-const {String: EmberString, isNone, run} = Ember
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
+import {Component} from 'frost-core-components'
+
+const {String: EmberString, isNone, run} = Ember
 
 export default Component.extend({
 

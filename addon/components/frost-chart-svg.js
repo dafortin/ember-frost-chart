@@ -3,12 +3,12 @@
  */
 
 import Ember from 'ember'
-const {String: EmberString} = Ember
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
-
+import {Component} from 'frost-core-components'
 import layout from '../templates/components/frost-chart-svg'
+
+const {String: EmberString} = Ember
 
 export default Component.extend({
 

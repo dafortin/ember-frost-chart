@@ -1,14 +1,10 @@
-/**
- * Component definition for the frost-chart-svg-plot-scatter component
- */
-
 import Ember from 'ember'
-const {A, get} = Ember
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
-
+import {Component} from 'frost-core-components'
 import layout from '../templates/components/frost-chart-svg-plot-area'
+
+const {A, get} = Ember
 
 export default Component.extend({
 

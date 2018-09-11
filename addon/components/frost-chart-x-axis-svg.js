@@ -3,13 +3,13 @@
  */
 
 import Ember from 'ember'
-const {String: EmberString, assign, get} = Ember
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
+import {Component} from 'frost-core-components'
 import {linearTicks} from '../helpers/linear-ticks'
-
 import layout from '../templates/components/frost-chart-x-axis-svg'
+
+const {String: EmberString, assign, get} = Ember
 
 export default Component.extend({
 

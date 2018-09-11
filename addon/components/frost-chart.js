@@ -3,13 +3,13 @@
  */
 
 import Ember from 'ember'
-const {A, Logger, Object: EmberObject, get, isEmpty, isNone, run} = Ember
 import {task} from 'ember-concurrency'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
-
+import {Component} from 'frost-core-components'
 import {linearScale} from '../helpers/d3-linear-scale'
 import layout from '../templates/components/frost-chart'
+
+const {A, Logger, Object: EmberObject, get, isEmpty, isNone, run} = Ember
 
 export default Component.extend({
 

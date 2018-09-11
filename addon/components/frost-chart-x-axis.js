@@ -4,8 +4,8 @@
 
 import Ember from 'ember'
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
+import {Component} from 'frost-core-components'
 import {linearTicks} from '../helpers/linear-ticks'
 import layout from '../templates/components/frost-chart-x-axis'
 

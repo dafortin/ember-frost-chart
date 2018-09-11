@@ -1,14 +1,11 @@
-/**
- * Component definition for the frost-chart-svg-plot-y-grid component
- */
-
 import Ember from 'ember'
-const {get} = Ember
 import layout from '../templates/components/frost-chart-svg-plot-y-grid'
 import computed, {readOnly} from 'ember-computed-decorators'
 import {isDomainValid} from 'ember-frost-chart/utils/validation'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
+import {Component} from 'frost-core-components'
+
+const {get} = Ember
 
 export default Component.extend({
   // == Dependencies ==========================================================

@@ -1,7 +1,7 @@
 import {stack as d3Stack} from 'd3-shape'
 import computed, {readOnly} from 'ember-computed-decorators'
-import {Component} from 'ember-frost-core'
 import {PropTypes} from 'ember-prop-types'
+import {Component} from 'frost-core-components'
 import layout from '../templates/components/frost-chart-svg-plot-stacked-bar'
 
 export default Component.extend({
